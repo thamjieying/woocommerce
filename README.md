@@ -9,7 +9,7 @@ Take various payments methods on your store using Red Dot Payment.
     a. Go to Plugins > Add New on the WordPress Dashboard.
     b. Search for Red Dot Payment WooCommerce in the Search Plugin bar. 
     c. Click "Install Now" and "Activate"
-    c. The Plugin is now successfully installed.
+    d. The Plugin is now successfully installed.
 
 2. Download the zip file from github //update
 

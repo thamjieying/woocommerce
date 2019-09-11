@@ -292,7 +292,7 @@ function wc_reddotpayment_gateway_init() {
 
     // webhook function that runs after payment is received (testing new plugin)
      public function complete_payment() {
-        include plugin_dir_path(__FILE__).'php-jwt/src/JWT.php';
+        include plugin_dir_path(__FILE__).'jwt/JWT.php';
   
         $json = file_get_contents('php://input');
         $resBody = json_decode($json, TRUE); //convert JSON into array
